@@ -1,0 +1,5 @@
+__pycache__/
+custom_ner_model/
+myenv/
+venv/
+data.pth

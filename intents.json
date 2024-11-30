@@ -1,0 +1,150 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Is anyone there?", "Good day", "What's up?"],
+      "responses": ["Hello! How can I assist you with food or restaurant suggestions?", "Hi! Looking for something specific today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I'm leaving", "Have a good day"],
+      "responses": ["Goodbye! Let me know if you need more food suggestions!", "Have a great day!"]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the info"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime! Let me know if you have more questions."]
+    },
+    {
+      "tag": "restaurant_search",
+      "patterns": [
+        "Find a restaurant", 
+        "Restaurant suggestions in Kathmandu", 
+        "Best restaurants in Bhaktapur", 
+        "Show me some good restaurants",
+        "Can you recommend a restaurant?"
+      ],
+      "responses": ["Let me find the best restaurant for you!", "Can you specify a location or food preference?", "I can suggest some great places!"]
+    },
+    {
+      "tag": "best_food",
+      "patterns": [
+        "What is the best food in XYZ restaurant?", 
+        "Recommend food from ABC", 
+        "Famous food in Nepalese restaurants", 
+        "What's the signature dish in XYZ?",
+        "Which dishes should I try at XYZ?"
+      ],
+      "responses": ["Let me check that for you!", "Here are some of the best foods from XYZ restaurant.", "People love these dishes at XYZ."]
+    },
+    {
+      "tag": "restaurant_reviews",
+      "patterns": [
+        "What do you think of XYZ?", 
+        "Is XYZ a good place to eat?", 
+        "Can you give me a review of ABC restaurant?",
+        "How's the ambiance at XYZ?",
+        "Would you recommend XYZ?"
+      ],
+      "responses": ["Here's a review of XYZ restaurant:", "Check out our detailed review of XYZ restaurant.", "This is what people are saying about XYZ."]
+    },
+    {
+      "tag": "budget_restaurants",
+      "patterns": [
+        "Affordable restaurants in Kathmandu", 
+        "Cheap places to eat", 
+        "Budget-friendly food in Bhaktapur", 
+        "Where can I eat on a budget?"
+      ],
+      "responses": ["Here are some budget-friendly restaurants for you!", "Let me find the best value-for-money places in your area.", "These places have great food without breaking the bank."]
+    },
+    {
+      "tag": "location_based_search",
+      "patterns": [
+        "Restaurants in Kathmandu", 
+        "Where can I eat in Patan?", 
+        "Best restaurants near me", 
+        "Good food places in Bhaktapur"
+      ],
+      "responses": ["Let me find some restaurants in that area!", "These are the top restaurants ", "Here's a list of the best places to eat nearby."]
+    },
+    {
+      "tag": "special_cuisine",
+      "patterns": [
+        "Best momo places in Kathmandu", 
+        "Where can I get good Thakali food?", 
+        "Suggest me a place for Nepali cuisine", 
+        "Where to eat Thakali food in Bhaktapur?"
+      ],
+      "responses": ["These places are known for their momo!", "Here are the best spots for Thakali food.", "If you're craving Nepali cuisine, try these places."]
+    },
+    {
+      "tag": "food_recommendation",
+      "patterns": [
+        "Suggest me a good dish", 
+        "What should I eat?", 
+        "Recommend something to eat", 
+        "What's the best dish to try?"
+      ],
+      "responses": ["Here are some popular dishes you might like!", "How about trying these dishes?", "These are some top-rated food items."]
+    },
+    {
+      "tag": "menu_query",
+      "patterns": [
+        "What is on the menu at XYZ?", 
+        "Menu of ABC restaurant", 
+        "Show me the food items at XYZ", 
+        "What's available at ABC?"
+      ],
+      "responses": ["Here's the menu for XYZ:", "These are the available food items at ABC.", "Let me show you the menu of XYZ."]
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "When does XYZ open?", 
+        "What are the hours for ABC?", 
+        "Is XYZ open now?", 
+        "When is ABC restaurant open?"
+      ],
+      "responses": ["XYZ is open from 9 AM to 10 PM.", "ABC's operating hours are from 8 AM to 11 PM.", "XYZ is currently open/closed."]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Can I book a table at XYZ?", 
+        "How to make a reservation?", 
+        "Can I reserve a spot at ABC?", 
+        "How do I book a table?"
+      ],
+      "responses": ["You can make a reservation by calling XYZ at this number.", "Let me guide you on how to book a table at ABC.", "Reservations for XYZ can be made through this link."]
+    },
+    {
+      "tag": "cancellation_policy",
+      "patterns": [
+        "What is the cancellation policy for XYZ?", 
+        "Can I cancel my reservation at ABC?", 
+        "How do cancellations work at XYZ?"
+      ],
+      "responses": ["The cancellation policy for XYZ is as follows:", "You can cancel your reservation up to 24 hours before at ABC.", "Here's how to cancel your reservation."]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "What is the contact info for XYZ?", 
+        "Phone number for ABC", 
+        "How can I reach XYZ?", 
+        "What is the email for ABC restaurant?"
+      ],
+      "responses": ["Here's the contact information for XYZ:", "You can contact ABC at this number/email.", "Here's how you can reach XYZ."]
+    },
+    {
+      "tag": "non_food_related_query",
+      "patterns": [
+        "Tell me about Nepalese culture", 
+        "What is the weather like in Kathmandu?", 
+        "Give me travel tips for Nepal"
+      ],
+      "responses": ["I can help you with food and restaurant recommendations!", "For travel tips and culture, you might want to explore other resources.", "My focus is on food and restaurant recommendations, but I can direct you to helpful resources."]
+    }
+  ]
+}
